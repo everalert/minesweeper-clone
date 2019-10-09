@@ -1,23 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using SlimDX;
 using SlimDX.Direct3D11;
 using SlimDX.DXGI;
 using SlimDX.Windows;
 using SlimDX.DirectInput;
 using Device = SlimDX.Direct3D11.Device;
-using Resource = SlimDX.Direct3D11.Resource;
-using SpriteTextRenderer;
 using SpriteRenderer = SpriteTextRenderer.SlimDX.SpriteRenderer;
 using TextBlockRenderer = SpriteTextRenderer.SlimDX.TextBlockRenderer;
 using System.Diagnostics;
 using System.Drawing;
 using System.Windows.Forms;
-using System.IO;
-using System.Drawing.Imaging;
 
 namespace Minesweeper
 {
